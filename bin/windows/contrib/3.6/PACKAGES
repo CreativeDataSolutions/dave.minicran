@@ -1,0 +1,72 @@
+Package: dave.app
+Version: 0.2.0
+Depends: shinythemes, shiny, shinyjs, dave.help, dave.report,
+       dave.utils
+License: AGPL-3 | file LICENSE
+
+Package: dave.data.app
+Version: 1.0
+Depends: tidyr, dplyr, bsplus, utils, shiny, tibble, stats, pryr,
+       dave.ocpu.client
+Imports: dave.help, dave.utils, curl, gridExtra, import,
+       jsonlite, knitr, markdown, rmarkdown, methods, pryr,
+       readr, utils
+License: AGPL-3 | file LICENSE
+
+Package: dave.help
+Version: 0.1.0
+Depends: dplyr, shiny, bsplus
+
+Package: dave.ml.app
+Version: 0.1.0
+Depends: PRROC, bsplus, dave.app, shiny, shinyjs, plotly,
+       shinyBS, RColorBrewer, reshape2, ggplot2, DT, ggrepel,
+       formattable, kableExtra, dave.ocpu.client
+
+Package: dave.multivariate.app
+Version: 0.1.0
+Depends: dave.app, shiny, bsplus, purrr, ellipse, splancs, dplyr,
+       reshape2, png
+
+Package: dave.network.app
+Version: 0.2.0
+Depends: dave.ocpu.client, dave.app, visNetwork, ggplot2, plotly,
+       ggnetwork, network, dplyr, reshape2, ggrepel,
+       RColorBrewer, shiny, bsplus, tippy, shinyjs
+Imports: CTSgetR, tidyr
+
+Package: dave.ocpu.client
+Version: 0.1.0
+Depends: ocpuclient, jsonlite, png
+
+Package: dave.pathway.app
+Version: 0.1.0
+Depends: dave.app, dplyr, reshape2, tippy, dave.ocpu.client,
+       shiny, DT, kableExtra
+
+Package: dave.report
+Version: 0.1.0
+Depends: dave.utils, dave.data, rmarkdown, dplyr, knitr, shiny,
+       tools, shinyAce, shinyWidgets, tinytex, tippy
+
+Package: dave.utils
+Version: 0.1.0
+Depends: fs, aws.s3, dplyr, DT, skimr, knitr, kableExtra
+
+Package: dave.vis
+Version: 0.0.1
+Depends: miniUI, digest, shiny (>= 1.1.0), htmltools, jsonlite,
+       shinyWidgets (>= 0.4.5), ggplot2 (>= 3.0.0), scales,
+       stringi, rlang (>= 0.3.1), grDevices, plotly
+Imports: miniUI, shiny (>= 1.1.0), htmltools, jsonlite,
+       shinyWidgets (>= 0.4.5), ggplot2 (>= 3.0.0), scales,
+       stringi, rlang (>= 0.3.1), grDevices, dave.utils,
+       dave.data
+Suggests: officer, rvg, rio, DT, testthat (>= 2.1.0), knitr,
+       ggthemes, hrbrthemes
+License: GPL-3
+
+Package: ocpuclient
+Version: 0.4.2
+Depends: crul
+License: MIT

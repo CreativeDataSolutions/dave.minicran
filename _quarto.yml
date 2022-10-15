@@ -1,0 +1,18 @@
+project:
+  type: website
+  output-dir: '.'
+
+website:
+  title: "DAVe `R package` repository"
+  navbar:
+    background: '#00bc8c'
+
+format:
+  html:
+    theme: darkly
+    css: style.css
+    toc: true
+    self-contained: true
+
+
+
