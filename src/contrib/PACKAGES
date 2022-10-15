@@ -1,7 +1,7 @@
 Package: dave.app
 Version: 0.2.0
-Depends: R (>= 3.5.0), shinythemes, shiny, shinyjs, dave.help,
-       dave.report, dave.utils
+Depends: R (>= 3.5.0), shinythemes, shiny, shinyjs, dave.help, dave.report,
+        dave.utils
 License: AGPL-3 | file LICENSE
 MD5sum: da068297638b644e16eefdd3b366f9e9
 NeedsCompilation: no
@@ -9,10 +9,9 @@ NeedsCompilation: no
 Package: dave.data.app
 Version: 1.0
 Depends: tidyr, dplyr, bsplus, utils, shiny, tibble, stats, pryr,
-       dave.ocpu.client
-Imports: dave.help, dave.utils, curl, gridExtra, import,
-       jsonlite, knitr, markdown, rmarkdown, methods, pryr,
-       readr, utils
+        dave.ocpu.client
+Imports: dave.help, dave.utils, curl, gridExtra, import, jsonlite, knitr,
+        markdown, rmarkdown, methods, pryr, readr, utils
 License: AGPL-3 | file LICENSE
 MD5sum: f8329cae473ef1c006182dc18f9db9bb
 NeedsCompilation: no
@@ -25,24 +24,24 @@ NeedsCompilation: no
 
 Package: dave.ml.app
 Version: 0.1.0
-Depends: R (>= 3.5.0), PRROC, bsplus, dave.app, shiny, shinyjs,
-       plotly, shinyBS, RColorBrewer, reshape2, ggplot2, DT,
-       ggrepel, formattable, kableExtra, dave.ocpu.client
+Depends: R (>= 3.5.0), PRROC, bsplus, dave.app, shiny, shinyjs, plotly,
+        shinyBS, RColorBrewer, reshape2, ggplot2, DT, ggrepel, formattable,
+        kableExtra, dave.ocpu.client
 MD5sum: 9cbbe7e779a2444cc6ffe91b98787c61
 NeedsCompilation: no
 
 Package: dave.multivariate.app
 Version: 0.1.0
-Depends: R (>= 3.5.0), dave.app, shiny, bsplus, purrr, ellipse,
-       splancs, dplyr, reshape2, png
+Depends: R (>= 3.5.0), dave.app, shiny, bsplus, purrr, ellipse, splancs, dplyr,
+        reshape2, png
 MD5sum: 8e6dc3769ea2f27d022c71617d8bb4a5
 NeedsCompilation: no
 
 Package: dave.network.app
 Version: 0.2.0
-Depends: R (>= 3.5.0), dave.ocpu.client, dave.app, visNetwork,
-       ggplot2, plotly, ggnetwork, network, dplyr, reshape2,
-       ggrepel, RColorBrewer, shiny, bsplus, tippy, shinyjs
+Depends: R (>= 3.5.0), dave.ocpu.client, dave.app, visNetwork, ggplot2, plotly,
+        ggnetwork, network, dplyr, reshape2, ggrepel, RColorBrewer, shiny,
+        bsplus, tippy, shinyjs
 Imports: CTSgetR, tidyr
 MD5sum: f6b737f01f1ca6aa524e47f2b9057701
 NeedsCompilation: no
@@ -55,17 +54,16 @@ NeedsCompilation: no
 
 Package: dave.pathway.app
 Version: 0.1.0
-Depends: dave.app, dplyr, reshape2, tippy, dave.ocpu.client,
-       shiny, DT, kableExtra
+Depends: dave.app, dplyr, reshape2, tippy, dave.ocpu.client, shiny, DT,
+        kableExtra
 MD5sum: 86bed4602cabc6b5207eba1460017136
 NeedsCompilation: no
 
 Package: dave.report
 Version: 0.1.0
-Depends: R (>= 3.5.0), dave.utils, dave.data, rmarkdown, dplyr,
-       knitr, shiny, tools, shinyAce, shinyWidgets, tinytex,
-       tippy
-MD5sum: f7c4afa783360fc93c1947482444cd40
+Depends: R (>= 3.5.0), dave.utils, dave.data.app, rmarkdown, dplyr, knitr,
+        shiny, tools, shinyAce, shinyWidgets, tinytex, tippy
+MD5sum: c46ac06d164338856747cc9fddb37d93
 NeedsCompilation: no
 
 Package: dave.utils
@@ -76,16 +74,14 @@ NeedsCompilation: no
 
 Package: dave.vis
 Version: 0.0.1
-Depends: R (>= 3.5.0), miniUI, digest, shiny (>= 1.1.0),
-       htmltools, jsonlite, shinyWidgets (>= 0.4.5), ggplot2 (>=
-       3.0.0), scales, stringi, rlang (>= 0.3.1), grDevices,
-       plotly
-Imports: miniUI, shiny (>= 1.1.0), htmltools, jsonlite,
-       shinyWidgets (>= 0.4.5), ggplot2 (>= 3.0.0), scales,
-       stringi, rlang (>= 0.3.1), grDevices, dave.utils,
-       dave.data
-Suggests: officer, rvg, rio, DT, testthat (>= 2.1.0), knitr,
-       ggthemes, hrbrthemes
+Depends: R (>= 3.5.0), miniUI, digest, shiny (>= 1.1.0), htmltools, jsonlite,
+        shinyWidgets (>= 0.4.5), ggplot2 (>= 3.0.0), scales, stringi, rlang
+        (>= 0.3.1), grDevices, plotly
+Imports: miniUI, shiny (>= 1.1.0), htmltools, jsonlite, shinyWidgets (>=
+        0.4.5), ggplot2 (>= 3.0.0), scales, stringi, rlang (>= 0.3.1),
+        grDevices, dave.utils, dave.data
+Suggests: officer, rvg, rio, DT, testthat (>= 2.1.0), knitr, ggthemes,
+        hrbrthemes
 License: GPL-3
 MD5sum: 63a5d8ea86aa3a9247bd9c8aabe002de
 NeedsCompilation: no

@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "index.html#repository",
+    "href": "index.html#repository",
+    "title": "DAVe `R package` repository",
+    "section": "Repository",
+    "text": "Repository\nAdd dave.minicran repo to install all packages.\nr <- getOption(\"repos\") \nr[\"CDS\"] = \"https://creativedatasolutions.github.io/dave.minicran/\"\noptions(repos = r)"
+  },
+  {
+    "objectID": "index.html#dave",
+    "href": "index.html#dave",
+    "title": "DAVe `R package` repository",
+    "section": "DAVe",
+    "text": "DAVe\nInstall the DAVe: Data Analysis and Visualization engine\ninstall.packages('dave.app')\n\nRun\nlibrary(dave.app)\nrun_daveApp(USERNAME = 'dave_user') # change USERNAME to save analysis progress in a specific folder"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "DAVe `R package` repository",
+    "section": "",
+    "text": "Install\n\nAdd dave.minicran repo to install all packages.\n\nr <- getOption(\"repos\") \nr[\"CDS\"] = \"https://creativedatasolutions.github.io/dave.minicran/\"\noptions(repos = r)\n\n\n\nInstall the DAVe: Data Analysis and Visualization engine\n\ninstall.packages('dave.app')\n\n\n\nRun\n\nlibrary(dave.app)\n# change USERNAME to save analysis progress in a specific folder\nrun_daveApp(USERNAME = 'dave_user') \n\n\n\n\nUser Manual\n\nSee the DAVe user manual for more details.\n\nMade with ❤️ by CDS- Creative Data Solutions.\n\n\n© CDS 2022"
+  }
+]
