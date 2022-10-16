@@ -18,6 +18,6 @@
     "href": "index.html",
     "title": "DAVe `R package` repository",
     "section": "",
-    "text": "Install\n\nAdd dave.minicran repo to install all packages.\n\nr <- getOption(\"repos\") \nr[\"CDS\"] = \"https://creativedatasolutions.github.io/dave.minicran/\"\noptions(repos = r)\n\n\n\nInstall the DAVe: Data Analysis and Visualization engine\n\ninstall.packages('dave.app')\n\n\n\nRun\n\nlibrary(dave.app)\n# change USERNAME to save analysis progress in a specific folder\nrun_daveApp(USERNAME = 'dave_user') \n\n\n\n\nUser Manual\n\nSee the DAVe user manual for more details.\n\nMade with ❤️ by CDS- Creative Data Solutions.\n\n\n© CDS 2022"
+    "text": "Install\n\nAdd dave.minicran repo to install all packages.\n\nr <- getOption(\"repos\") \nr[\"CDS\"] = \"https://creativedatasolutions.github.io/dave.minicran/\"\noptions(repos = r)\n\n\n\nInstall the DAVe: Data Analysis and Visualization engine\n\n#install\npkgs <-\n  c(\n    'dave.app',\n    'dave.vis',\n    'dave.preproc',\n    'dave.stat',\n    'dave.cluster',\n    'dave.pathway.app',\n    \"dave.ml.app\",\n    \"dave.multivariate.app\",\n    \"dave.network.app\"\n  )\n\ninstall.packages(pkgs)\n\n\n\nRun\n\nlibrary(dave.app)\n# change USERNAME to save analysis progress in a specific folder\nrun_daveApp(USERNAME = 'dave_user') \n\n\n\n\nUser Manual\n\nSee the DAVe user manual for more details.\n\nMade with ❤️ by CDS- Creative Data Solutions.\n\n\n© CDS 2022"
   }
 ]
