@@ -3,6 +3,11 @@ Version: 0.2.0
 Depends: shinythemes, shiny, shinyjs, dave.help, dave.report, dave.utils
 License: AGPL-3 | file LICENSE
 
+Package: dave.cluster
+Version: 0.1.0
+Depends: dave.help, dave.report, dave.data, iheatmapr, formattable, kableExtra,
+        dplyr, shiny, plotly, webshot
+
 Package: dave.data.app
 Version: 1.0
 Depends: tidyr, dplyr, bsplus, utils, shiny, tibble, stats, pryr,
@@ -41,10 +46,21 @@ Version: 0.1.0
 Depends: dave.app, dplyr, reshape2, tippy, dave.ocpu.client, shiny, DT,
         kableExtra
 
+Package: dave.preproc
+Version: 0.1.0
+Depends: htmltools, dave.app, dplyr, bsplus, shinythemes, ggplot2, plotly,
+        shiny, magrittr
+Suggests: testthat
+
 Package: dave.report
 Version: 0.1.0
 Depends: dave.utils, dave.data.app, rmarkdown, dplyr, knitr, shiny, tools,
         shinyAce, shinyWidgets, tinytex, tippy
+
+Package: dave.stat
+Version: 0.3.0
+Depends: dave.app, purrr, ggrepel, ggplot2, plotly, PMCMR, reshape2, stats,
+        gridExtra, shiny, DT, kableExtra, shinyjs, bsplus
 
 Package: dave.utils
 Version: 0.1.0
