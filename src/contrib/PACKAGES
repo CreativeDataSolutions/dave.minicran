@@ -8,9 +8,9 @@ NeedsCompilation: no
 
 Package: dave.cluster
 Version: 0.1.0
-Depends: R (>= 3.5.0), dave.help, dave.report, dave.data, iheatmapr,
-        formattable, kableExtra, dplyr, shiny, plotly, webshot
-MD5sum: fd9d97d69a1c8a9e7fec41c63d68401e
+Depends: R (>= 3.5.0), dave.app, iheatmapr, formattable, kableExtra, dplyr,
+        shiny, plotly, webshot
+MD5sum: 00e5325a3bb68252f157d160d1d217a6
 NeedsCompilation: no
 
 Package: dave.data.app

@@ -5,8 +5,8 @@ License: AGPL-3 | file LICENSE
 
 Package: dave.cluster
 Version: 0.1.0
-Depends: dave.help, dave.report, dave.data, iheatmapr, formattable, kableExtra,
-        dplyr, shiny, plotly, webshot
+Depends: dave.app, iheatmapr, formattable, kableExtra, dplyr, shiny, plotly,
+        webshot
 
 Package: dave.data.app
 Version: 1.0
