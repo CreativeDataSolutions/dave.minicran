@@ -13,7 +13,7 @@ Depends: tidyr, dplyr, bsplus, utils, shiny, tibble, stats, pryr,
 Imports: dave.help, dave.utils, curl, gridExtra, import, jsonlite, knitr,
         markdown, rmarkdown, methods, pryr, readr, utils
 License: AGPL-3 | file LICENSE
-MD5sum: f8329cae473ef1c006182dc18f9db9bb
+MD5sum: bee6f8b887b14727981e71d8e030f097
 NeedsCompilation: no
 
 Package: dave.help
