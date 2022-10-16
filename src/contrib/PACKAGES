@@ -101,11 +101,11 @@ Depends: R (>= 3.5.0), miniUI, digest, shiny (>= 1.1.0), htmltools, jsonlite,
         (>= 0.3.1), grDevices, plotly
 Imports: miniUI, shiny (>= 1.1.0), htmltools, jsonlite, shinyWidgets (>=
         0.4.5), ggplot2 (>= 3.0.0), scales, stringi, rlang (>= 0.3.1),
-        grDevices, dave.utils, dave.data
+        grDevices, dave.utils, dave.data.app
 Suggests: officer, rvg, rio, DT, testthat (>= 2.1.0), knitr, ggthemes,
         hrbrthemes
 License: GPL-3
-MD5sum: 63a5d8ea86aa3a9247bd9c8aabe002de
+MD5sum: 6476a1330a774a700577f4d96ff6c5df
 NeedsCompilation: no
 
 Package: ocpuclient
