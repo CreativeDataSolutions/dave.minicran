@@ -69,9 +69,9 @@ NeedsCompilation: no
 Package: dave.preproc
 Version: 0.1.0
 Depends: R (>= 3.5.0), htmltools, dave.app, dplyr, bsplus, shinythemes,
-        ggplot2, plotly, shiny, magrittr
+        ggplot2, plotly, shiny, magrittr, reshape2
 Suggests: testthat
-MD5sum: 9463044a5e26dd379c701e368f04b3cc
+MD5sum: 4f2f93f05c23e59caa2c858872395dec
 NeedsCompilation: no
 
 Package: dave.report

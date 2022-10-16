@@ -49,7 +49,7 @@ Depends: dave.app, dplyr, reshape2, tippy, dave.ocpu.client, shiny, DT,
 Package: dave.preproc
 Version: 0.1.0
 Depends: htmltools, dave.app, dplyr, bsplus, shinythemes, ggplot2, plotly,
-        shiny, magrittr
+        shiny, magrittr, reshape2
 Suggests: testthat
 
 Package: dave.report
