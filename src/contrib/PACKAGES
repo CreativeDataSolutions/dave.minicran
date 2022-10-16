@@ -3,7 +3,7 @@ Version: 0.2.0
 Depends: R (>= 3.5.0), shinythemes, shiny, shinyjs, dave.help, dave.report,
         dave.utils
 License: AGPL-3 | file LICENSE
-MD5sum: da068297638b644e16eefdd3b366f9e9
+MD5sum: 1dca23fc869dcc6e8db507aa4fcadda9
 NeedsCompilation: no
 
 Package: dave.data.app
