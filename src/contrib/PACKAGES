@@ -57,8 +57,8 @@ Version: 0.2.0
 Depends: R (>= 3.5.0), dave.ocpu.client, dave.app, visNetwork, ggplot2, plotly,
         ggnetwork, network, dplyr, reshape2, ggrepel, RColorBrewer, shiny,
         bsplus, tippy, shinyjs
-Imports: CTSgetR, tidyr
-MD5sum: f6b737f01f1ca6aa524e47f2b9057701
+Imports: tidyr
+MD5sum: ecea441aba64b0d3174e690f9cd98995
 NeedsCompilation: no
 
 Package: dave.ocpu.client

@@ -41,7 +41,7 @@ Version: 0.2.0
 Depends: dave.ocpu.client, dave.app, visNetwork, ggplot2, plotly, ggnetwork,
         network, dplyr, reshape2, ggrepel, RColorBrewer, shiny, bsplus, tippy,
         shinyjs
-Imports: CTSgetR, tidyr
+Imports: tidyr
 
 Package: dave.ocpu.client
 Version: 0.1.0
