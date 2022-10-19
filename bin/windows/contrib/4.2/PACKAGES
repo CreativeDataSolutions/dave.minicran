@@ -1,0 +1,5 @@
+Package: dave.app
+Version: 0.2.0
+Depends: shinythemes, shiny, shinyjs, dave.help, dave.report,
+       dave.utils
+License: AGPL-3 | file LICENSE
