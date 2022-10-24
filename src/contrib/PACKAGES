@@ -3,14 +3,14 @@ Version: 0.2.0
 Depends: R (>= 3.5.0), shinythemes, shiny, shinyjs, dave.help,
        dave.report, dave.utils
 License: AGPL-3 | file LICENSE
-MD5sum: cfc77f55135b2b197ce7188c5b527a4a
+MD5sum: c3636b10a40f0c7f2bd756a890ca64fa
 NeedsCompilation: no
 
 Package: dave.cluster
 Version: 0.1.0
 Depends: R (>= 3.5.0), dave.app, iheatmapr, formattable,
        kableExtra, dplyr, shiny, plotly, webshot
-MD5sum: b14c4215850f99c1cffe71a08520221b
+MD5sum: eb154b937e9643f1f901ccddfdd45dcd
 NeedsCompilation: no
 
 Package: dave.data.app
@@ -21,7 +21,7 @@ Imports: dave.help, dave.utils, curl, gridExtra, import,
        jsonlite, knitr, markdown, rmarkdown, methods, pryr,
        readr, utils
 License: AGPL-3 | file LICENSE
-MD5sum: 668b0b3bd636c12370d37d3fce50daad
+MD5sum: 3bb03eafb15c0f9916ec09917b1c597a
 NeedsCompilation: no
 
 Package: dave.help
@@ -35,14 +35,14 @@ Version: 0.1.0
 Depends: R (>= 3.5.0), PRROC, bsplus, dave.app, shiny, shinyjs,
        plotly, shinyBS, RColorBrewer, reshape2, ggplot2, DT,
        ggrepel, formattable, kableExtra, dave.ocpu.client
-MD5sum: df336e484240d9d38da3389187e010f9
+MD5sum: e5496747467b43990226ba2b9749288d
 NeedsCompilation: no
 
 Package: dave.multivariate.app
 Version: 0.1.0
 Depends: R (>= 3.5.0), dave.app, shiny, bsplus, purrr, ellipse,
        splancs, dplyr, reshape2, png
-MD5sum: f3de8e5e09ca7d9c956a74dd862ea862
+MD5sum: 22133334d40be495996ece11a05ffd83
 NeedsCompilation: no
 
 Package: dave.network.app
@@ -51,20 +51,20 @@ Depends: R (>= 3.5.0), dave.ocpu.client, dave.app, visNetwork,
        ggplot2, plotly, ggnetwork, network, dplyr, reshape2,
        ggrepel, RColorBrewer, shiny, bsplus, tippy, shinyjs
 Imports: tidyr
-MD5sum: e40c65ba4eb786e5d1c61dd153d6a396
+MD5sum: a62ff70e016b8ff25a4b5c7dfead41db
 NeedsCompilation: no
 
 Package: dave.ocpu.client
 Version: 0.1.0
 Depends: ocpuclient, jsonlite, png
-MD5sum: 88c66c544b91abe50fff89419cf918fc
+MD5sum: 78f65639bb52293952cb8fbd42a0f551
 NeedsCompilation: no
 
 Package: dave.pathway.app
 Version: 0.1.0
 Depends: dave.app, dplyr, reshape2, tippy, dave.ocpu.client,
        shiny, DT, kableExtra
-MD5sum: b97ef2d1ace4a5ae1bf46831056c411f
+MD5sum: 02b5dfc33ac9366f3587decca43c42c6
 NeedsCompilation: no
 
 Package: dave.preproc
@@ -117,5 +117,5 @@ Package: ocpuclient
 Version: 0.4.2
 Depends: crul
 License: MIT
-MD5sum: bf01b6ba80930859b849bc9237009b6d
+MD5sum: ad675967ffcc5312b43a204538e6a8d6
 NeedsCompilation: no
