@@ -1,3 +1,11 @@
+Package: CTSgetR
+Version: 1.3
+Depends: dplyr, tidyr, purrr, httr, RSQLite, reshape2, ocpuclient
+Suggests: testthat
+License: MIT
+MD5sum: b54ba040f0a6b9aa04d6be095980cb32
+NeedsCompilation: no
+
 Package: dave.app
 Version: 0.2.0
 Depends: R (>= 3.5.0), shinythemes, shiny, shinyjs, dave.help,
