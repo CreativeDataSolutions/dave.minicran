@@ -3,7 +3,7 @@ Version: 1.3
 Depends: dplyr, tidyr, purrr, httr, RSQLite, reshape2, ocpuclient
 Suggests: testthat
 License: MIT
-MD5sum: b54ba040f0a6b9aa04d6be095980cb32
+MD5sum: 307fe0bc7182ecd53af6d20ac752a93d
 NeedsCompilation: no
 
 Package: dave.app
@@ -11,14 +11,14 @@ Version: 0.2.0
 Depends: R (>= 3.5.0), shinythemes, shiny, shinyjs, dave.help,
        dave.report, dave.utils
 License: AGPL-3 | file LICENSE
-MD5sum: c3636b10a40f0c7f2bd756a890ca64fa
+MD5sum: 63b2e31b951bc4c3239df334e24ccc7d
 NeedsCompilation: no
 
 Package: dave.cluster
-Version: 0.1.0
+Version: 0.1.1
 Depends: R (>= 3.5.0), dave.app, iheatmapr, formattable,
        kableExtra, dplyr, shiny, plotly, webshot
-MD5sum: eb154b937e9643f1f901ccddfdd45dcd
+MD5sum: 6e7d94aef64766749e65ac5363df5d7d
 NeedsCompilation: no
 
 Package: dave.data.app
@@ -29,13 +29,13 @@ Imports: dave.help, dave.utils, curl, gridExtra, import,
        jsonlite, knitr, markdown, rmarkdown, methods, pryr,
        readr, utils
 License: AGPL-3 | file LICENSE
-MD5sum: 3bb03eafb15c0f9916ec09917b1c597a
+MD5sum: a89e72622637686a2a2a51b52cf15842
 NeedsCompilation: no
 
 Package: dave.help
 Version: 0.1.0
 Depends: dplyr, shiny, bsplus
-MD5sum: 0ea25abc6152606c3f7ee1be5a505869
+MD5sum: a7b224039014eea482e5421f59a240c8
 NeedsCompilation: no
 
 Package: dave.ml.app
@@ -43,14 +43,14 @@ Version: 0.1.0
 Depends: R (>= 3.5.0), PRROC, bsplus, dave.app, shiny, shinyjs,
        plotly, shinyBS, RColorBrewer, reshape2, ggplot2, DT,
        ggrepel, formattable, kableExtra, dave.ocpu.client
-MD5sum: e5496747467b43990226ba2b9749288d
+MD5sum: 7b2cab6c5bd20db1be0cc08ec085b992
 NeedsCompilation: no
 
 Package: dave.multivariate.app
 Version: 0.1.0
 Depends: R (>= 3.5.0), dave.app, shiny, bsplus, purrr, ellipse,
        splancs, dplyr, reshape2, png
-MD5sum: 22133334d40be495996ece11a05ffd83
+MD5sum: 8afddbe93a4fa1f501598fe293489f1d
 NeedsCompilation: no
 
 Package: dave.network.app
@@ -59,20 +59,20 @@ Depends: R (>= 3.5.0), dave.ocpu.client, dave.app, visNetwork,
        ggplot2, plotly, ggnetwork, network, dplyr, reshape2,
        ggrepel, RColorBrewer, shiny, bsplus, tippy, shinyjs
 Imports: tidyr
-MD5sum: a62ff70e016b8ff25a4b5c7dfead41db
+MD5sum: fdfb2665afe3b655c58c557590586d43
 NeedsCompilation: no
 
 Package: dave.ocpu.client
 Version: 0.1.0
 Depends: ocpuclient, jsonlite, png
-MD5sum: 78f65639bb52293952cb8fbd42a0f551
+MD5sum: 453ad1a0cdf65422e61ba50aa12d56fc
 NeedsCompilation: no
 
 Package: dave.pathway.app
 Version: 0.1.0
 Depends: dave.app, dplyr, reshape2, tippy, dave.ocpu.client,
        shiny, DT, kableExtra
-MD5sum: 02b5dfc33ac9366f3587decca43c42c6
+MD5sum: 7e2f4c85b205381209bb39d2d3a971ac
 NeedsCompilation: no
 
 Package: dave.preproc
@@ -80,7 +80,7 @@ Version: 0.1.0
 Depends: R (>= 3.5.0), htmltools, dave.app, dplyr, bsplus,
        shinythemes, ggplot2, plotly, shiny, magrittr, reshape2
 Suggests: testthat
-MD5sum: 5beef8fd50aa2a8aa6cd034b5df804b4
+MD5sum: ef72772261520bd578fa7fb317b18587
 NeedsCompilation: no
 
 Package: dave.report
@@ -88,7 +88,7 @@ Version: 0.1.0
 Depends: R (>= 3.5.0), dave.utils, dave.data.app, rmarkdown,
        dplyr, knitr, shiny, tools, shinyAce, shinyWidgets,
        tinytex, tippy
-MD5sum: a2f9944e67a4c29ffc8ef3b5bf4613e6
+MD5sum: 71f8780586cdb02b269875861d747306
 NeedsCompilation: no
 
 Package: dave.stat
@@ -96,13 +96,13 @@ Version: 0.3.0
 Depends: R (>= 3.5.0), dave.app, purrr, ggrepel, ggplot2, plotly,
        PMCMR, reshape2, stats, gridExtra, shiny, DT, kableExtra,
        shinyjs, bsplus
-MD5sum: 7c7076cf33aaf5bb94bf20576c501edb
+MD5sum: 331c9cbdb1ad1f76d408e950d69cfecb
 NeedsCompilation: no
 
 Package: dave.utils
 Version: 0.1.0
 Depends: fs, aws.s3, dplyr, DT, skimr, knitr, kableExtra
-MD5sum: 18bae2a2bf4751f7f7680458ba22d71d
+MD5sum: 5ed7080d2820401fb097a32b13df3fa3
 NeedsCompilation: no
 
 Package: dave.vis
@@ -118,12 +118,12 @@ Imports: miniUI, shiny (>= 1.1.0), htmltools, jsonlite,
 Suggests: officer, rvg, rio, DT, testthat (>= 2.1.0), knitr,
        ggthemes, hrbrthemes
 License: GPL-3
-MD5sum: 3c7ed9edf2c34d27d70d4a7326fdc865
+MD5sum: fc9274a3d7dca7d64dc113a1ec4853b5
 NeedsCompilation: no
 
 Package: ocpuclient
 Version: 0.4.2
 Depends: crul
 License: MIT
-MD5sum: ad675967ffcc5312b43a204538e6a8d6
+MD5sum: 1a9063a78da98696742888f12f9fb58e
 NeedsCompilation: no
