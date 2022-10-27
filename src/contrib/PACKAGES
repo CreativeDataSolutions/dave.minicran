@@ -29,7 +29,7 @@ Imports: dave.help, dave.utils, curl, gridExtra, import,
        jsonlite, knitr, markdown, rmarkdown, methods, pryr,
        readr, utils
 License: AGPL-3 | file LICENSE
-MD5sum: a89e72622637686a2a2a51b52cf15842
+MD5sum: 53cd22396da56a1bdbd0bf42ef8130fc
 NeedsCompilation: no
 
 Package: dave.help
