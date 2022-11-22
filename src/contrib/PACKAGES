@@ -65,7 +65,7 @@ NeedsCompilation: no
 Package: dave.ocpu.client
 Version: 0.1.0
 Depends: ocpuclient, jsonlite, png
-MD5sum: 453ad1a0cdf65422e61ba50aa12d56fc
+MD5sum: 70512fd97dd7f6eb3ca446cb92e260d9
 NeedsCompilation: no
 
 Package: dave.pathway.app
@@ -125,5 +125,5 @@ Package: ocpuclient
 Version: 0.4.2
 Depends: crul
 License: MIT
-MD5sum: 1a9063a78da98696742888f12f9fb58e
+MD5sum: d818436417b0250b9c85d954428a67be
 NeedsCompilation: no
