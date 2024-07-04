@@ -199,7 +199,7 @@ h1,h2,h3,h4,h5 {
   margin-bottom: 10px;
 }
 
-.caution, .important, .note, .tip, .warning {
+/*.caution, .important, .note, .tip, .warning {
   padding: 1em 1em 1em 4em;
   margin-bottom: 10px;
   background: #f5f5f5 5px center/3em no-repeat;
@@ -226,3 +226,4 @@ h1,h2,h3,h4,h5 {
 .warning {
   background-image: url("img/warning.png");
 }
+*/
